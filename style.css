@@ -1,0 +1,194 @@
+body{
+    padding:0;
+    margin:0;
+    font-family: sans-serif;
+}
+.top-header{
+    height:12vh;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.logo-top{
+    height:8vh;
+    margin:2vh 0;
+}
+.header{
+    height:8vh;
+    width:100%;
+    background-color: white;
+}
+.list-wrapper{
+    background-color: white;
+    display: flex;
+    margin:0;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.list-wrapper li{
+    
+    padding: 1vh 0 ;
+    display: flex;
+    justify-content: space-between;
+    min-width: 25px;
+    font-weight: 400;
+    font-size: 18px;
+    cursor: pointer;
+}
+.fas{
+    margin-left: 18px;
+
+}
+.extrahover{
+    border: none !important;
+}
+.list-wrapper li:hover{
+    border-bottom: 2px solid red;
+}
+.header-wrapper{
+    width:80%;
+    margin:0 10%;
+    
+    height: 100%;
+}
+.mid-body-1{
+    height:80vh;
+    width:100%;
+    background-image: url('coke-taste-the-feeling-hed-2015.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.inner-heading{
+    font-size: 35px;
+    color:white;
+    font-weight: bold;
+    text-shadow: 4px 1px 9px black;
+}
+.mid-content{
+    font-size: 18px;
+    color:white;
+    font-weight: normal;
+    box-shadow: ;
+    text-shadow: 4px 1px 9px black;
+}
+.lower-content{
+    color:white;
+    text-shadow: 4px 1px 9px black;
+}
+.mid-body-2{
+    height:75vh;
+    width:100%;
+    background-image: url('mpexels-quintin-gellar-6660965.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.mid-body-3{
+    height:75vh;
+    width:100%;
+    background-image: url('m-pexels-anderson-miranda-1986078.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    
+}
+.mid-body-4{
+    height:75vh;
+    width:100%;
+    background-image: url('top-aerial-view-of-a-man-lying-on-sand-at-diamond-beach-on-a-bright-fine-day-in-nusa-penida-island-indonesia-AAEF00647.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.mid-body-5{
+    height:75vh;
+    width:100%;
+    background-image: url('mpexels-kelly-lacy-2321837.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    
+}
+.mid-body-6{
+    height:75vh;
+    width:100%;
+    background-image: url('mpexels-karolina-grabowska-4202328.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.mid-body-7{
+    height:75vh;
+    width:100%;
+    background-image: url('mpexels-teddy-joseph-2955376.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.left-body-wrapper{
+    height:100%;
+    width:50%;
+    background-color: ;    
+    padding: 80px 0px 0px 70px;
+}
+.right-body-wrapper{
+    height:100%;
+    width:50%;
+    background-color: ;    
+    padding:80px 0px 0px 80px;
+   
+
+}
+.left-body{
+    height: auto;
+    width:50%;
+    background-color: ;
+}
+.right-body{
+    width:65%;
+    background-color: ;
+}
+.footer{
+    height:140px;
+    width:auto;
+    background-color: #4A4A4A;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px 50px;
+}
+.upper-footer{
+    display: flex;
+    background-color: ;
+}
+.list-wrapper-footer{
+    background-color: ;
+    display: flex;
+    margin:0;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.list-wrapper-footer li{
+    font-size: 14px;
+    color:white;
+    font-weight: 100;
+    cursor: pointer;
+}
+.lower-footer{
+    display: flex;
+    justify-content: space-between;
+}
